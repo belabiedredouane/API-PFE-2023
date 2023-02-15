@@ -1,0 +1,77 @@
+/* Split the screen in half */
+
+
+
+/* Control the left side */
+.left {
+  
+  background-color: black;
+  background-image: {{ url_for('static', filename='img/star.jpg') }};
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Control the right side */
+.right {
+  right: 50;
+  background-color: red;
+  
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+
+  top: 60%;
+  left: 50%;
+  
+  bottom:60px;
+  text-align: center;
+}
+#image-selector {
+  background-color: #555555; /* Green */
+  border: none;
+  color: #555555;
+  padding: 10px 10px;
+  top:-30px;
+
+ right:40px;
+  text-decoration: none;
+
+  font-size: 20px;
+}
+#predict-button{
+	border: none;
+  color: #555555;
+  padding: 10px 10px;
+  top:-40px;
+
+ right:50px;
+  text-decoration: none;
+
+font-size: 30px;}
+	
+h1 {
+
+  font-family: "Allerta Stencil", Sans-serif;
+  color: #f2f2f2;
+ 
+
+  font-size: 50px;
+}
+.url{
+	 text-align:center;
+	 left: 50px;
+	 font-family: "Allerta Stencil", Sans-serif;
+	 text-decoration: underline;
+	 font-size: 50px;
+}
+.centered img{
+	
+ right:40px;
+	
+}
+
+
+/* Style the image inside the centered container, if needed */
+
